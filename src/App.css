@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap');
+
+@keyframes arrowAnimation {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.arrowAnimation {
+    animation: arrowAnimation 2s ease-in-out infinite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    display: inline-block; /* Ensure the letters are inline and can animate */
+    opacity: 0;
+    animation: fadeIn 2s forwards; /* Adjust the duration as needed */
+}
+
+@keyframes fadeInSlower {
+  0% {
+      opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+      opacity: 1;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fadeInSlower {
+  display: inline-block; /* Ensure the letters are inline and can animate */
+  opacity: 0;
+  animation: fadeIn 5s forwards; /* Adjust the duration as needed */
 }
