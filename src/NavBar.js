@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import {Projects} from "./Projects"
 import {Experience} from "./Experience"
 import {About} from "./About"
+import Home from "../src/Pages/Home"
 
 
 const Navbar = () => {
@@ -43,25 +44,31 @@ const Navbar = () => {
       >
         <ul className="flex flex-col items-start font-semibold font-interTight">
 
-          <li className="px-4 py-2 hover:bg-gray-300 w-full">
+          <li className="px-4 py-2 hover:text-gray-400 w-full">
+          <Link to="/">Home</Link>
+            {/* <a href="#About">About</a> */}
+            <hr class="h-px my-1 border-0 dark:bg-gray-700"></hr>
+          </li>
+
+          <li className="px-4 py-2 hover:text-gray-400 w-full">
           <Link to="/About">About</Link>
             {/* <a href="#About">About</a> */}
             <hr class="h-px my-1 border-0 dark:bg-gray-700"></hr>
           </li>
 
-          <li className="px-4 py-2 hover:bg-gray-300 w-full">
+          <li className="px-4 py-2 hover:text-gray-400 w-full">
             <Link to="/Projects">Projects</Link>
             {/* <a href="#Projects">Projects</a> */}
             <hr class="h-px my-1 border-0 dark:bg-gray-700"></hr>
           </li>
 
-          <li className="px-4 py-2 hover:bg-gray-300 w-full">
+          <li className="px-4 py-2 hover:text-gray-400 w-full">
             <Link to="/Experience">Experience</Link>
             {/* <a href="#Experience">Experience</a> */}
             <hr class="h-px my-1 border-0 dark:bg-gray-700"></hr>
           </li>
 
-          <li className="px-4 py-2 hover:bg-gray-300 w-full">
+          <li className="px-4 py-2 hover:text-gray-400 w-full">
             <Link to="/Connect">Connect</Link>
             {/* <a href="#Connect">Connect</a> */}
             <hr class="h-px my-1 border-0 dark:bg-gray-700"></hr>

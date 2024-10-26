@@ -10,7 +10,7 @@ const Projects = () => {
 
       {/* Title */}
       <h1 className="lg:text-5xl text-3xl font-semibold text-black font-interTight lg:mb-10 mb-4">
-        Selected Projects
+        Selected <span className='text-gray-400'>projects</span>
       </h1>
 
       {/* Big containers for projects */}
