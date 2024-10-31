@@ -7,10 +7,9 @@ const Experience = () => {
 
     return (
 
-      <section className='lg:mt-14 mt-7 flex flex-col lg:flex-row justify-between lg:px-24 px-5'>
+      <section id="Experience" className='lg:mt-14 mt-7 flex flex-col lg:flex-row justify-between lg:px-24 px-5'>
 
         {/* div for entire experiences section */}
-            
 
             <h1 className='font-interTight font-bold lg:text-5xl text-3xl'>
                 Experience

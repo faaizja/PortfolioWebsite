@@ -11,7 +11,7 @@ const Hero = () => {
   };
 
   return ( 
-    <div className='h-screen py-24 flex flex-col lg:px-24 p-5'>
+    <section id="Home" className='h-screen py-24 flex flex-col lg:px-24 p-5 '>
       
       <div className='flex flex-col items-start'>
         <h2 className='lg:text-8xl text-7xl font-bold text-black font-interTight fadeIn'>
@@ -40,7 +40,7 @@ const Hero = () => {
         <FaArrowDown strokeWidth={4} size={23} className='arrowAnimation ml-2'/>
       </div>
 
-    </div>
+    </section>
   );
 }
 
