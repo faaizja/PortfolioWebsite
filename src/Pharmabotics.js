@@ -5,7 +5,7 @@ import image3dPrint from "./images/3dPrintImage.png"
 import loginImage from "./images/loginImage.png"
 import dashboardImage from "./images/dashboardImage.png"
 import fingerprintImage from "./images/fingerprintCode.png"
-import vid from "/Users/faaizabdullah/Desktop/Faaiz/myPortfolio/src/pharmabotics.mp4";
+// import vidPharmabotics from "src/pharmabotics.mp4";
 
 
 const Pharmabotics = () => {
@@ -189,13 +189,13 @@ const Pharmabotics = () => {
             <div className="flex gap-3 lg:mt-2">
 
             <video
-                src={vid}
+                // src= "myPortfolio/public/pharmabotics.mp4"
+                // src= {vidPharmabotics}
                 controls
-                width="600" // Adjust width as desired
-                height="auto"
                 alt="PharmaBotics Project Demo"
-                className="lg:w-fit lg:max-w-fit"
+                className="lg:w-fit lg:max:w-fit rounded-3xl"
             >
+                <source src="/pharmabotics.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
 
