@@ -10,6 +10,9 @@ const Projects = () => {
 
   const navigateConnect = () => {
     navigate('/StudySpotr');
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'instant' });
+  }, 0);
   };
 
   const navigateConnect2 = () => {
@@ -21,7 +24,8 @@ const Projects = () => {
   };
 
   const navigateConnect3 = () => {
-    navigate('/DbHeroes');
+    // navigate('/DbHeroes');
+    window.open("https://github.com/faaizja/Dragon-Ball-Z-Heroes-shooter-game")
   };
 
 
@@ -42,10 +46,12 @@ const Projects = () => {
           
         <div className="justify-center items-center mt-2">
 
-            <div className=" pt-10 overflow-hidden flex bg-gray-100 justify-center items-center lg:w-full lg:h-[34rem] h-52 rounded-3xl shadow-xl hover:bg-gray-300 hover:bg-opacity-60 ease-in-out duration-700">
+          <div className='justify-items-center'>
+            <div className=" pt-10 overflow-hidden flex bg-gray-100 justify-center items-center lg:w-11/12 lg:h-[32rem] h-52 rounded-[7rem] shadow-xl hover:bg-gray-300 hover:bg-opacity-60 ease-in-out duration-700">
               {/* image goes here */}
               <img src={pharmboticsImage}  alt="studyspotr" className='w-2/3 object-hidden transform lg:translate-y-20 hover:-translate-y-4 ease-in-out duration-500 hover:scale-105'></img>
             </div>
+          </div>
 
           <div className="lg:flex justify-between items-center mt-8">
 
@@ -72,10 +78,12 @@ const Projects = () => {
           
         <div className="justify-center items-center mt-2">
 
-            <div className=" pt-10 overflow-hidden flex bg-gray-100 justify-center items-center lg:w-full lg:h-[34rem] h-52 rounded-3xl shadow-xl hover:bg-gray-300 hover:bg-opacity-60 ease-in-out duration-700">
+          <div className='justify-items-center'>
+            <div className=" pt-10 overflow-hidden flex bg-gray-100 justify-center items-center lg:w-11/12 lg:h-[32rem] h-52 rounded-[7rem] shadow-xl hover:bg-gray-300 hover:bg-opacity-60 ease-in-out duration-700">
               {/* image goes here */}
               <img src={pharmboticsImage}  alt="Pharmabotics" className='w-2/3 object-hidden transform lg:translate-y-20 hover:-translate-y-4 ease-in-out duration-500 hover:scale-105'></img>
             </div>
+          </div>
 
           <div className="lg:flex justify-between items-center mt-8">
 
@@ -98,14 +106,16 @@ const Projects = () => {
       </div>
 
       {/* Dragon Ball Heroes Shooter */}
-      <div className="pb-11">
+        <div className="pb-11">
           
           <div className="justify-center items-center mt-2">
-  
-              <div className=" pt-10 overflow-hidden flex bg-gray-100 justify-center items-center lg:w-full lg:h-[34rem] h-52 rounded-3xl shadow-xl hover:bg-gray-300 hover:bg-opacity-60 ease-in-out duration-700">
+
+            <div className='justify-items-center'>
+              <div className=" pt-10 overflow-hidden flex bg-gray-100 justify-center items-center lg:w-11/12 lg:h-[32rem] h-52 rounded-[7rem] shadow-xl hover:bg-gray-300 hover:bg-opacity-60 ease-in-out duration-700">
                 {/* image goes here */}
                 <img src={dbheroes}  alt="dbheroes" className='w-2/3 object-hidden transform lg:translate-y-20 hover:-translate-y-4 ease-in-out duration-500 hover:scale-105'></img>
               </div>
+            </div>  
   
             <div className="lg:flex justify-between items-center mt-8">
   
@@ -115,8 +125,8 @@ const Projects = () => {
               </div>
   
               <div className='pt-4'>
-                <button onClick={navigateConnect3} className="bg-black text-white text-md py-4 px-8 rounded-full flex items-center group hover:bg-gray-400 ease-in-out duration-500">
-                  Check it out
+                <button onClick={navigateConnect3} className=" bg-purple-900 text-white text-md py-4 px-8 rounded-full flex items-center group hover:bg-gray-400 ease-in-out duration-500 ">
+                  Github
                   <FiArrowRight strokeWidth={3} size={20} className="ml-2 text-white transform group-hover:translate-x-2 transition-transform ease-in-out duration-500 "/>
                 </button>
               </div>

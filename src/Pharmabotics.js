@@ -1,4 +1,12 @@
 import React from "react";
+import pressureSensorImage from "./images/pressureSensor.png"
+import proximitySensorImage from "./images/proximitySensor.png"
+import image3dPrint from "./images/3dPrintImage.png"
+import loginImage from "./images/loginImage.png"
+import dashboardImage from "./images/dashboardImage.png"
+import fingerprintImage from "./images/fingerprintCode.png"
+import vid from "/Users/faaizabdullah/Desktop/Faaiz/myPortfolio/src/pharmabotics.mp4";
+
 
 const Pharmabotics = () => {
 
@@ -111,7 +119,13 @@ const Pharmabotics = () => {
                      adjustments and design enhancements for future iterations.
             </p>
 
-            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-5">Second iteration and refinements:</h3>
+            {/* FIRST ITERATION IMAGES */}
+            <div className="flex gap-3 lg:mt-2">
+                <img src={pressureSensorImage} alt="pressureSensor" className="w-[37rem] rounded-[1.5rem]"></img>
+                <img src={proximitySensorImage} alt="proximitySensor" className="w-[37rem] rounded-[1.5rem]" ></img>
+            </div>
+
+            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-9 ">Second iteration and refinements:</h3>
 
             <p className="font-interTight font-medium text-balance">
                 In the second iteration, we focused on refining the integration between the front end and back end, 
@@ -125,6 +139,67 @@ const Pharmabotics = () => {
                 robust and functional for real-world use.
             </p>
 
+            {/* SECOND ITERATION IMAGES */}
+            <div className="flex gap-3 lg:mt-2">
+                <img src={image3dPrint} alt="pressureSensor" className="lg:w-[23rem] lg:h-[30rem] rounded-[1.5rem]"></img>
+                <img src={fingerprintImage} alt="proximitySensor" className="w-[22rem] lg:h-[30rem] rounded-[1.5rem]" ></img>
+            </div>
+            <div className="flex gap-3 lg:mt-2">
+                <img src={loginImage} alt="pressureSensor" className="lg:w-[42rem] lg:h-[23rem] rounded-[1.5rem]"></img>
+                <img src={dashboardImage} alt="proximitySensor" className="lg:w-[42rem] lg:h-[23rem] rounded-[1.5rem]" ></img>
+            </div>
+
+            {/* Challenges and adaptations */}
+            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-5">Challenges and adaptations:</h3>
+
+            <p className="font-interTight font-medium text-balance">
+                 We encountered challenges with the pill dispensing mechanism,
+                 as it initially jammed or dispensed multiple pills at once. 
+                 Recognizing this issue, I worked on adjusting the motor speed,
+                 redesigned the rotation setup in OnShape AutoCad to ensure single-pill dispensing accuracy. 
+                 The user interface also needed refinement. Initial user testing revealed 
+                 it was too cluttered and confusing. I redesigned the layout with 
+                 simplified navigation and high-contrast buttons, enhancing user 
+                 flow and accessibility. The fingerprint sensor posed an additional 
+                 hurdle, often misidentifying users or not recognizing previously enrolled fingerprints.
+                 To resolve this, I recalibrated the sensor and wrote code to enhance its integration,
+                 by saving enrolled fingerprints in the backend database so that the fingerprints can be 
+                 searched for in a concrete memory, helping achieve faster and more reliable authentication.
+            </p>
+
+
+            {/* final outcome*/}
+            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-5">Final outcome:</h3>
+
+            <p className="font-interTight font-medium text-balance">
+                The final outcome of PharmaBotics effectively addressed medication 
+                adherence issues by providing a secure, accessible, and user-friendly 
+                dispensing solution. Through the calibrated pill-dispensing motor 
+                and refined fingerprint authentication, we ensured precise delivery
+                to verified users only, eliminating errors in dosage and unauthorized
+                access. The improved user interface with high-contrast, easy-to-navigate
+                buttons allowed patients to operate the system with minimal guidance,
+                supporting individuals with varying levels of tech proficiency. 
+                This solution demonstrated a real impact on improving medication 
+                management, as it combined essential security features with an intuitive 
+                design, reducing the risk of missed or incorrect doses.
+            </p>
+
+            {/* FINAL IMAGES */}
+            <div className="flex gap-3 lg:mt-2">
+
+            <video
+                src={vid}
+                controls
+                width="600" // Adjust width as desired
+                height="auto"
+                alt="PharmaBotics Project Demo"
+                className="lg:w-fit lg:max-w-fit"
+            >
+                Your browser does not support the video tag.
+            </video>
+
+            </div>
 
         </section>
 

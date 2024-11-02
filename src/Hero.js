@@ -14,6 +14,7 @@ const Hero = () => {
   const aspirations = [
     'software engineer.',
     'chef.',
+    "football fan",
     'game developer.',
     "teacher.",
   ];
