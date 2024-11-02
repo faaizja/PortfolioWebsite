@@ -12,11 +12,11 @@ const Hero = () => {
 
   // Array of aspirations
   const aspirations = [
-    'software engineer.',
-    'chef.',
-    "football fan",
-    'game developer.',
-    "teacher.",
+    'software engineer. 💻',
+    'chef. 🧑🏻‍🍳',
+    "football fan. ⚽️",
+    'game developer. 👾',
+    "teacher. ✏️",
   ];
 
   // State to keep track of the current aspiration and fade effect
