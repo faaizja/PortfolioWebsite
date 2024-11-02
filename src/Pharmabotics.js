@@ -191,7 +191,7 @@ const Pharmabotics = () => {
                 alt="PharmaBotics Project Demo"
                 className="lg:w-fit lg:max:w-fit rounded-3xl"
             >
-                <source src="public/pharmabotics.mp4" type="video/mp4" />
+                <source src="pharmabotics.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
 
