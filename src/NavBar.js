@@ -50,6 +50,17 @@ const Navbar = () => {
 
     handleClose(); // Close the menu after clicking
   };
+
+  const navigateAbout = () => {
+    navigate('/About');
+    
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 0);
+
+    setIsOpen(false); // Assuming you have setIsOpen to manage the dropdown state
+
+  }
   
   return (
     <nav className="bg-white w-full h-20 z-50 fixed top-0 left-0 rounded-b-lg items-center">
@@ -82,7 +93,7 @@ const Navbar = () => {
           </li>
 
           <li className="px-4 py-2 hover:text-gray-400 w-full">
-          <button onClick={() => handleNavigation("/", "About")}>About</button>
+          <button onClick={navigateAbout}>About</button>
             {/* <Link to="/About" onClick={handleClose}>About</Link> */}
             <hr className="h-px my-1 border-0 dark:bg-gray-700" />
           </li>

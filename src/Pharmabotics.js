@@ -120,7 +120,7 @@ const Pharmabotics = () => {
             {/* FIRST ITERATION IMAGES */}
             <div className="flex gap-3 lg:mt-2">
                 <img src={pressureSensorImage} alt="pressureSensor" className="w-[37rem] rounded-[1.5rem]"></img>
-                <img src={proximitySensorImage} alt="proximitySensor" className="w-[37rem] rounded-[1.5rem]" ></img>
+                <img src={proximitySensorImage} alt="proximitySensor" className="w-[37rem] rounded-[1.5rem] " ></img>
             </div>
 
             <h3 className="lg:text-lg font-interTight font-semibold lg:mt-9 ">Second iteration and refinements:</h3>
@@ -183,17 +183,17 @@ const Pharmabotics = () => {
                 design, reducing the risk of missed or incorrect doses.
             </p>
 
-            {/* FINAL IMAGES */}
-            <div className="flex gap-3 lg:mt-2">
+            {/* video */}
+            <div className="flex gap-3 lg:mt-3">
 
-            <video
-                controls
-                alt="PharmaBotics Project Demo"
-                className="lg:w-fit lg:max:w-fit rounded-3xl"
-            >
-                <source src="pharmabotics.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+                <video
+                    controls
+                    alt="PharmaBotics Project Demo"
+                    className="lg:w-fit lg:max:w-fit rounded-3xl"
+                >
+                    <source src="pharmabotics.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
 
             </div>
 

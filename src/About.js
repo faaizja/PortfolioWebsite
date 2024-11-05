@@ -1,6 +1,7 @@
 import React from "react";
 import blackTusk from "../src/images/blackTusk.png";
 import sunset from "../src/images/sunset.png";
+import footballPitch from "../src/images/footballPitch.JPG";
 
 const About = () => {
 
@@ -32,13 +33,14 @@ const About = () => {
                 <p className="font-interTight lg:mt-2 text-xl text-balance lg:mr-56 lg:mb-6">
                     I grew up in Canada and have always been passionate about technology, which led me to explore and eventually pursue a career in this exciting field. 
                     I'm lucky to call Vancouver my home — one of the most beautiful cities in the world, surrounded by mountains, ocean, and vibrant city life. 
-                    When I'm not coding or working on new projects, you'll probably find me playing football (soccer), trying a new recipe in the kitchen, or having a cup of tea with pals. 
+                    When I'm not coding or working on new projects, you'll probably find me playing football (soccer), trying a new recipe in the kitchen, or hanging out with friends. 
                 </p>
 
                 {/* images */}
                 <div className="mt-5 flex gap-6 mb-2">
-                    <img src={blackTusk} alt="blacktusk" className="h-96"></img>
-                    <img src={sunset} alt="blacktusk" className="h-96"></img>
+                    <img src={blackTusk} alt="blacktusk" className="h-96 shadow-lg shadow-black rounded-xl hover:-translate-y-4 ease-in-out duration-500"></img>
+                    <img src={sunset} alt="blacktusk" className="h-96 shadow-lg shadow-black rounded-xl hover:-translate-y-4 ease-in-out duration-500"></img>
+                    <img src={footballPitch} alt="blacktusk" className="h-96 shadow-lg shadow-black rounded-xl hover:-translate-y-4 ease-in-out duration-500"></img>
                 </div>
             
             </div>

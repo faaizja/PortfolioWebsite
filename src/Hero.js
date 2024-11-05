@@ -8,15 +8,19 @@ const Hero = () => {
 
   const navigateConnect = () => {
     navigate('/About');
+
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 0);
+
   };
 
   // Array of aspirations
   const aspirations = [
     'software engineer. 💻',
-    'chef. 🧑🏻‍🍳',
-    "football fan. ⚽️",
     'game developer. 👾',
     "teacher. ✏️",
+    "football coach. ⚽️",
   ];
 
   // State to keep track of the current aspiration and fade effect
@@ -44,9 +48,11 @@ const Hero = () => {
           Computer science student and aspiring
         </h2>
 
-        <h2 className={`text-gray-400 lg:text-8xl text-7xl font-bold font-interTight ${fade ? 'fadeIn' : ''}`}>
-          {aspirations[currentAspiration]}
-        </h2>
+        <h2 className={`text-gray-400 lg:text-8xl text-7xl font-bold font-interTight ${fade ? 'fadeIn' : ''}`}
+          style={{textShadow: "1.5px 1.5px 1.5px rgba(0, 0, 0)",}}>
+            {aspirations[currentAspiration]}
+      </h2>
+
       </div>
 
       <h2 className='mt-6 ml-1 font-interTight font-semibold lg:text-4xl text-2xl'>

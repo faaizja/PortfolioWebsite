@@ -3,6 +3,7 @@ import { FiArrowRight } from 'react-icons/fi';
 import pharmboticsImage from "../src/images/pharmabotics.svg";
 import dbheroes from "../src/images/dbshooter.svg";
 import { useNavigate } from 'react-router-dom';
+import studySpotrImage from "./images/studySpotrMockups.png"
 
 const Projects = () => {
 
@@ -49,7 +50,7 @@ const Projects = () => {
           <div className='justify-items-center'>
             <div className=" pt-10 overflow-hidden flex bg-gray-100 justify-center items-center lg:w-11/12 lg:h-[32rem] h-52 rounded-[7rem] shadow-xl hover:bg-gray-300 hover:bg-opacity-60 ease-in-out duration-700">
               {/* image goes here */}
-              <img src={pharmboticsImage}  alt="studyspotr" className='w-2/3 object-hidden transform lg:translate-y-20 hover:-translate-y-4 ease-in-out duration-500 hover:scale-105'></img>
+              <img src={studySpotrImage}  alt="studyspotr" className='w-2/3 object-hidden transform lg:translate-y-20 hover:-translate-y-4 ease-in-out duration-500 hover:scale-105'></img>
             </div>
           </div>
 
