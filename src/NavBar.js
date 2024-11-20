@@ -81,7 +81,7 @@ const Navbar = () => {
 
       {/* Dropdown Menu */}
       <div
-        className={`absolute right-4 mt-14 bg-white text-black rounded-lg shadow-lg w-48 py-2 transition-transform transform origin-top ${
+        className={`absolute right-4 mt-14 bg-white text-black rounded-lg shadow-lg w-48 py-2 duration-500 transition-transform transform origin-top ${
           isOpen ? 'scale-y-100' : 'scale-y-0'
         }`}
         style={{ transformOrigin: 'top right' }}

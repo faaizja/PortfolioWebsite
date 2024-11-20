@@ -17,7 +17,7 @@ const Hero = () => {
 
   // Array of aspirations
   const aspirations = [
-    'software engineer. 💻',
+    'software developer. 💻',
     'game developer. 👾',
     "teacher. ✏️",
     "football coach. ⚽️",
