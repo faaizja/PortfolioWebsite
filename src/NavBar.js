@@ -75,7 +75,7 @@ const Navbar = () => {
   
   
   return (
-    <nav className="bg-white w-full h-20 z-50 fixed top-0 left-0 rounded-b-lg items-center">
+    <nav className="bg-white w-full h-20 z-50 fixed top-0 left-0 rounded-b-3xl items-center shadow-[0_0_30px_rgba(110,80,220,0.2)]">
       {/* Hamburger Icon */}
       <div className="absolute top-4 right-10 flex justify-items-center">
         <button
