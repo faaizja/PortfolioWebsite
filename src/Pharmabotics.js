@@ -12,9 +12,9 @@ const Pharmabotics = () => {
 
         <section className="lg:mt-24 lg:ml-24 lg:mb-24 mt-24 ml-3 lg:mr-80">
 
-            <h1 className="text-black font-interTight text-9xl font-semibold">Pharma<span className="text-gray-400 fadeIn">botics</span></h1>
+            <h1 className="text-black font-interTight text-9xl font-semibold">Pharma<span className="text-gray-400 fadeIn">Botics</span></h1>
             
-            <h2 className="lg:text-4xl font-interTight font-semibold lg:mt-1 mt-10 text-2xl">Software/Hardware project</h2>
+            <h2 className="lg:text-4xl font-interTight font-semibold lg:mt-1 mt-10 text-2xl">Software/Hardware Project</h2>
 
 
             {/* OVERVIEW */}
@@ -35,7 +35,7 @@ const Pharmabotics = () => {
             </p>
 
             {/* PROBLEM AND OBJECTIVES */}
-            <h2 className="lg:mt-12 lg:text-2xl font-interTight font-semibold mt-5 text-xl">Problem and objective</h2>
+            <h2 className="lg:mt-12 lg:text-2xl font-interTight font-semibold mt-5 text-xl">Problem and Objective</h2>
             
             <p className="text-balance lg:mt-2">
                 Medication non-adherence is a prevalent issue that leads to significant health risks and complications. 
@@ -45,56 +45,57 @@ const Pharmabotics = () => {
             </p>
 
             {/* SKILLS */}
-            <h2 className="lg:mt-12 lg:text-2xl font-interTight font-semibold mt-5 text-xl">Skills & tools</h2>
+            <h2 className="lg:mt-12 lg:text-2xl font-interTight font-semibold mt-5 text-xl">Skills & Tools</h2>
 
-            <h3 className="lg:mt-2 lg:text-lg font-interTight font-semibold mt-3">UI/UX design: <span className="font-medium lg:text-sm"> Focused on accessibility, simplicity, and intuitive navigation in a health-tech context, ensuring inclusivity for elderly users.</span> </h3>
-            <h3 className="lg:text-lg font-interTight font-semibold">Accessibility: <span className="font-medium lg:text-sm"> Implemented features with accessibility needs in mind, including font size adjustments, high-contrast color options, and simplified layouts for readability.</span> </h3>
-            <h3 className="lg:text-lg font-interTight font-semibold">Front-end: <span className="font-medium lg:text-sm"> HTML | Tailwind CSS | React.js</span> </h3>
-            <h3 className="lg:text-lg font-interTight font-semibold">Back-end: <span className="font-medium lg:text-sm"> Node.js | MongoDB | Express.js</span> </h3>
-            <h3 className="lg:text-lg font-interTight font-semibold">Tools: <span className="font-medium lg:text-sm"> Arduino UNO Kit | C++ | Sensors & Transducers | Github | VsCode</span> </h3>
-            <h3 className="lg:text-lg font-interTight font-semibold">Project purpose: <span className="font-medium lg:text-sm"> This project was created as part of a school assignment, specifically to explore the integration of software and hardware components in making an innovative project in the healhcare domain.</span> </h3>
-            <h3 className="lg:text-lg font-interTight font-semibold">Timeframe: <span className="font-medium lg:text-sm"> July 2024 - August 2024</span> </h3>
-            <h3 className="lg:text-lg font-interTight font-semibold">Contributors:</h3>
-            <li className="lg:ml-8 font-interTight font-medium">Faaiz Abdullah (me) - Node.js code, Arduino code for fingerprint sensor and pressure sensor, physical building and prototyping.</li>
-            <li className="lg:ml-8 font-interTight font-medium">Harjot Singh - React JS interface and Node JS code, arduino code for fingerprint sensor, physical building and prototyping.</li>
-            <li className="lg:ml-8 font-interTight font-medium">Kashfi Rashid - Arduino code for lid motion using an ultrasonic sensor, 3D printing, physical building and prototyping.</li>
-
+            <div className="lg:ml-4">
+                <h3 className="mt-2 lg:text-lg font-interTight font-semibold">Project Purpose: <span className="font-medium lg:text-sm"> This project was created as part of a school assignment, specifically to explore the integration of software and hardware components in making an innovative project in the healhcare domain.</span> </h3>
+                <h3 className="lg:text-lg font-interTight font-semibold">Timeframe: <span className="font-medium lg:text-sm"> July 2024 - August 2024</span> </h3>
+                <h3 className="lg:text-lg font-interTight font-semibold">Accessibility: <span className="font-medium lg:text-sm"> Implemented features with accessibility needs in mind, including font size adjustments, high-contrast color options, and simplified layouts for readability.</span> </h3>
+                <h3 className="lg:text-lg font-interTight font-semibold">UI/UX Design: <span className="font-medium lg:text-sm"> Focused on accessibility, simplicity, and intuitive navigation in a health-tech context, ensuring inclusivity for elderly users.</span> </h3>
+                <h3 className="lg:text-lg font-interTight font-semibold">Front-End: <span className="font-medium lg:text-sm"> HTML | Tailwind CSS | React.js</span> </h3>
+                <h3 className="lg:text-lg font-interTight font-semibold">Back-End: <span className="font-medium lg:text-sm"> Node.js | MongoDB | Express.js</span> </h3>
+                <h3 className="lg:text-lg font-interTight font-semibold">Tools: <span className="font-medium lg:text-sm"> Arduino UNO Kit | C++ | Sensors & Transducers | Github | VsCode</span> </h3>
+                <h3 className="lg:text-lg font-interTight font-semibold">Contributors:</h3>
+                <li className="lg:ml-8 font-interTight font-medium">Faaiz Abdullah (me) - Node.js code, Arduino code for fingerprint sensor and pressure sensor, physical building and prototyping.</li>
+                <li className="lg:ml-8 font-interTight font-medium">Harjot Singh - React JS interface and Node JS code, arduino code for fingerprint sensor, physical building and prototyping.</li>
+                <li className="lg:ml-8 font-interTight font-medium">Kashfi Rashid - Arduino code for lid motion using an ultrasonic sensor, 3D printing, physical building and prototyping.</li>
+            </div>
 
             {/* PROCESS */}
-            <h2 className="lg:mt-12 lg:text-2xl font-interTight font-semibold mt-5 text-xl">Process & solution</h2>
+            <h2 className="lg:mt-12 lg:text-2xl font-interTight font-semibold mt-5 text-xl">Process & Solution</h2>
 
             {/* GOALS */}
             <h3 className="lg:text-lg font-interTight font-semibold">Goals:</h3>
 
             <div className="flex lg:gap-10 gap-1 mt-4">
-                <div className="lg:w-60 lg:h-32 border-4 rounded-xl flex items-center justify-center text-center p-2 lg:p-4 font-interTight font-medium text-black">
+                <div className="lg:w-60 lg:h-32 border-4 hover:border-8 ease-in-out duration-300 rounded-xl flex items-center justify-center text-center p-2 lg:p-4 font-interTight font-medium text-black">
                     To design an intuitive UI for medication schedules
                 </div>
 
-                <div className="lg:w-60 lg:h-32 border-4 rounded-xl flex items-center justify-center text-center p-2 lg:p-4 font-interTight font-medium text-black">
+                <div className="lg:w-60 lg:h-32 border-4 hover:border-8 ease-in-out duration-300 rounded-xl flex items-center justify-center text-center p-2 lg:p-4 font-interTight font-medium text-black">
                     To provide customizable reminders and tracking to ensure ease of adherence
                 </div>
 
-                <div className="lg:w-60 lg:h-32 border-4 rounded-xl flex items-center justify-center text-center p-2 lg:p-4 font-interTight font-medium text-black">
+                <div className="lg:w-60 lg:h-32 border-4 hover:border-8 ease-in-out duration-300 rounded-xl flex items-center justify-center text-center p-2 lg:p-4 font-interTight font-medium text-black">
                     Prioritize accessibility to ensure the app is usable by any audience including elderly users
                 </div>
 
             </div>  
 
             {/* KEY DECISIONS */}
-            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-5 mt-5">Key decisions:</h3>
+            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-5 mt-5">Key Decisions:</h3>
 
             <div className="flex lg:gap-10 gap-1 mt-4">
 
-                <div className="lg:w-72 lg:h-60 border-4 rounded-xl flex items-center justify-center text-center p-1 lg:p-1 font-interTight font-medium text-black">
+                <div className="lg:w-72 lg:h-60 border-4 hover:border-8 ease-in-out duration-300 rounded-xl flex items-center justify-center text-center p-1 lg:p-2 font-interTight font-medium text-black">
                     Enabled hands-free medication access through a proximity sensor, ensuring patients receive medication with minimal effort—ideal for accessibility and reducing handling errors.
                 </div>
 
-                <div className="lg:w-72 lg:h-60 border-4 rounded-xl flex items-center justify-center text-center p-2 lg:p-1 font-interTight font-medium text-black">
+                <div className="lg:w-72 lg:h-60 border-4 hover:border-8 ease-in-out duration-300  rounded-xl flex items-center justify-center text-center p-2 lg:p-1 font-interTight font-medium text-black">
                     Used fingerprint recognition for quick, reliable authentication of patients and healthcare staff, ensuring secure and authorized access while maintaining ease of use.
                 </div>
 
-                <div className="lg:w-72 lg:h-60 border-4 rounded-xl flex items-center justify-center text-center p-2 lg:p-1 font-interTight font-medium text-black">
+                <div className="lg:w-72 lg:h-60 border-4 hover:border-8 ease-in-out duration-300 rounded-xl flex items-center justify-center text-center p-2 lg:p-1 font-interTight font-medium text-black">
                     Created a high-contrast interface with large, clear buttons to guide users intuitively through the app, enhancing accessibility and making navigation straightforward for all users.
                 </div>
 
@@ -102,7 +103,7 @@ const Pharmabotics = () => {
 
 
             {/* PHASES AND ITERATIONS */}
-            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-5 mt-5 text-xl">Initial phases and iterations:</h3>
+            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-5 mt-5 text-xl">Initial Phases and Iterations:</h3>
 
             <p className="font-interTight font-medium text-balance">
                      In our initial phase, we laid the groundwork by identifying key components and testing basic functionalities for a secure,
@@ -123,7 +124,7 @@ const Pharmabotics = () => {
                 <img src={proximitySensorImage} alt="proximitySensor" className="w-[37rem] rounded-[1.5rem] mb-3" ></img>
             </div>
 
-            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-9 mt-5 text-xl">Second iteration and refinements:</h3>
+            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-9 mt-5 text-xl">Second Iteration and Refinements:</h3>
 
             <p className="font-interTight font-medium text-balance">
                 In the second iteration, we focused on refining the integration between the front end and back end, 
@@ -148,7 +149,7 @@ const Pharmabotics = () => {
             </div>
 
             {/* Challenges and adaptations */}
-            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-5 mt-5 text-xl">Challenges and adaptations:</h3>
+            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-5 mt-5 text-xl">Challenges and Adaptations:</h3>
 
             <p className="font-interTight font-medium text-balance">
                  We encountered challenges with the pill dispensing mechanism,
@@ -167,7 +168,7 @@ const Pharmabotics = () => {
 
 
             {/* final outcome*/}
-            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-5 mt-5 text-xl">Final outcome:</h3>
+            <h3 className="lg:text-lg font-interTight font-semibold lg:mt-5 mt-5 text-xl">Final Outcome:</h3>
 
             <p className="font-interTight font-medium text-balance">
                 The final outcome of PharmaBotics effectively addressed medication 
@@ -192,7 +193,7 @@ const Pharmabotics = () => {
                     className="lg:w-fit lg:max:w-fit rounded-3xl"
                 >
                     <source src="pharmabotics.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
+                        pharmabotics vid
                 </video>
 
             </div>

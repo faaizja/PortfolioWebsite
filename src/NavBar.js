@@ -36,7 +36,7 @@ const Navbar = () => {
       if (sectionId) {
         handleScroll(sectionId);
       } else{
-        handleScroll("#Hero"); // Scroll to top for "Home"
+        window.scrollTo({ top: 0, behavior: 'smooth' }); 
       }
     } 
     else {
@@ -61,6 +61,18 @@ const Navbar = () => {
     setIsOpen(false); // Assuming you have setIsOpen to manage the dropdown state
 
   }
+
+  const navigateHome = () => {
+    navigate('/');
+    
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 0);
+
+    setIsOpen(false); // Assuming you have setIsOpen to manage the dropdown state
+
+  }
+  
   
   return (
     <nav className="bg-white w-full h-20 z-50 fixed top-0 left-0 rounded-b-lg items-center">
@@ -88,7 +100,7 @@ const Navbar = () => {
       >
         <ul className="flex flex-col items-start font-semibold font-interTight">
           <li className="px-4 py-2 hover:text-gray-400 w-full">
-            <button onClick={() => handleNavigation("/", "Hero")}>Home</button>
+            <button onClick={navigateHome}>Home</button>
             <hr className="h-px my-1 border-0 dark:bg-gray-700" />
           </li>
 
@@ -103,15 +115,23 @@ const Navbar = () => {
             <hr className="h-px my-1 border-0 dark:bg-gray-700" />
           </li>
 
-          <li className="px-4 py-2 hover:text-gray-400 w-full">
+          {/* <li className="px-4 py-2 hover:text-gray-400 w-full">
             <button onClick={() => handleNavigation("/", "Experience")}>Experience</button>
             <hr className="h-px my-1 border-0 dark:bg-gray-700" />
-          </li>
+          </li> */}
 
           <li className="px-4 py-2 hover:text-gray-400 w-full">
             <button onClick={() => handleNavigation("/", "Connect")}>Connect</button>
             <hr className="h-px my-1 border-0 dark:bg-gray-700" />
           </li>
+
+          <a href="/FaaizAbdullahResume.pdf" download="FaaizAbdullah_Resume.pdf" >
+              <li className= "px-4 py-2 hover:text-gray-400 w-full">
+                Download Resume
+                <hr className="h-px my-1 border-0 dark:bg-gray-700 w-40"/>
+              </li>
+          </a>
+
         </ul>
       </div>
     </nav>
@@ -119,70 +139,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-//   return (
-//     // nav bar accross screen
-//     <nav className="bg-white w-full h-20 z-50 fixed top-0 left-0 rounded-b-lg">
-//       {/* Hamburger Icon */}
-//       <div className="absolute top-4 right-10 justify-items-center flex">
-//         <button
-//           onClick={toggleMenu}
-//           className="p-4 rounded-3xl w-16 transition-all duration-300 ease-in-out hover:bg-white hover:text-black"
-//           style={{
-//             boxShadow: '0 0 3px rgba(0, 0, 0, 0.2)', // Glowing white outline
-//           }}
-//         >
-//           {/* Hamburger Lines */}
-//           <div className='justify-items-center'>
-//             <span className="block w-6 h-0.5 bg-black mb-1"></span>
-//             <span className="block w-6 h-0.5 bg-black mb-1"></span>
-//             <span className="block w-6 h-0.5 bg-black"></span>
-//           </div>
-//         </button>
-//       </div>
-
-//       {/* Dropdown Menu */}
-//       <div
-//         className={`absolute right-4 mt-14 bg-white text-black rounded-lg shadow-lg w-48 py-2 transition-transform transform origin-top ${
-//           isOpen ? 'scale-y-100' : 'scale-y-0'
-//         }`}
-//         style={{ transformOrigin: 'top right' }} // Anchor the animation at the top-right
-//         >
-
-//         <ul className="flex flex-col items-start font-semibold font-interTight">
-
-//           <li className="px-4 py-2 hover:text-gray-400 w-full">
-//           <Link to="/" onClick={handleClose}>Home</Link>
-//           {/* <a href="#Home">Home</a> */}
-//             <hr class="h-px my-1 border-0 dark:bg-gray-700"></hr>
-//           </li>
-
-//           <li className="px-4 py-2 hover:text-gray-400 w-full">
-//           <Link to="/About" onClick={handleClose}>About</Link>
-//             <hr class="h-px my-1 border-0 dark:bg-gray-700"></hr>
-//           </li>
-
-//           <li className="px-4 py-2 hover:text-gray-400 w-full">
-//             <a href="#Projects" onClick={handleClose}>Projects</a>
-//             <hr class="h-px my-1 border-0 dark:bg-gray-700"></hr>
-//           </li>
-
-//           <li className="px-4 py-2 hover:text-gray-400 w-full">
-//             <a href="#Experience" onClick={handleClose}>Experience</a>
-//             <hr class="h-px my-1 border-0 dark:bg-gray-700"></hr>
-//           </li>
-
-//           <li className="px-4 py-2 hover:text-gray-400 w-full">
-//             <a href="#Connect" onClick={handleClose}>Connect</a>
-//             <hr class="h-px my-1 border-0 dark:bg-gray-700"></hr>
-//           </li>
-
-//         </ul>
-
-//       </div>
-
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
