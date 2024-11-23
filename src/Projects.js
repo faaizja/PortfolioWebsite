@@ -32,7 +32,7 @@ const Projects = () => {
 
   return (
     // entire projects section
-    <section id="Projects" className="flex flex-col lg:px-24 px-6 lg:mt-20 mt-32">
+    <section id="Projects" className="flex flex-col lg:px-24 px-6 lg:mt-20 mt-52">
 
       {/* Title */}
       <h1 className="lg:text-5xl text-3xl font-semibold text-black font-interTight lg:mb-10 mb-4">
