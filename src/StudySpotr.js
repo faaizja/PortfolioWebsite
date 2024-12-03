@@ -10,7 +10,7 @@ const studySpotr = () => {
 
         <section className="lg:mt-24 mt-24 ml-3 lg:ml-24 lg:mb-24 lg:mr-80">
 
-            <h1 className="text-black font-interTight text-8xl font-semibold">Study <span className="text-orange-400 fadeIn">Spotr</span></h1>
+            <h1 className="text-black font-interTight text-9xl font-semibold">Study <span className="text-orange-400 fadeIn">Spotr</span></h1>
 
 
             <h2 className="lg:text-4xl text-2xl font-interTight font-semibold lg:mt-1 mt-10">Full-stack web app</h2>
