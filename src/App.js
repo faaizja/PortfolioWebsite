@@ -8,6 +8,7 @@ import Projects from "./Projects"
 import Pharmabotics from './Pharmabotics';
 import DbHeroes from './DbHeroes';
 import StudySpotr from './StudySpotr';
+import FootballWizard from './FootballWizard';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/About' element={<About />} />
         <Route path='/Projects' element={<Projects />} />
+        <Route path='/FootballWizard' element={<FootballWizard />} />
         <Route path='/StudySpotr' element={<StudySpotr />} />
         <Route path='/Pharmabotics' element={<Pharmabotics />} />
         <Route path='/DbHeroes' element={<DbHeroes />} />
