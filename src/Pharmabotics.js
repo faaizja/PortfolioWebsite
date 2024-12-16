@@ -9,13 +9,12 @@ import fingerprintImage from "./images/fingerprintCode.png"
 const Pharmabotics = () => {
 
     return (
-
+ 
         <section className="lg:mt-24 lg:ml-24 lg:mb-24 mt-24 ml-3 lg:mr-80">
 
             <h1 className="text-black font-interTight text-9xl font-semibold">Pharma<span className="text-gray-400 fadeIn">Botics</span></h1>
             
             <h2 className="lg:text-4xl font-interTight font-semibold lg:mt-1 mt-10 text-2xl">Software/Hardware Project</h2>
-
 
             {/* OVERVIEW */}
             <h2 className="lg:mt-56 lg:text-2xl font-interTight font-semibold text-xl mt-10">Project Overview</h2>
