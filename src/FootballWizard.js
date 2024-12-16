@@ -1,10 +1,9 @@
 import React from "react";
-import pressureSensorImage from "./images/pressureSensor.png"
-import proximitySensorImage from "./images/proximitySensor.png"
-import image3dPrint from "./images/3dPrintImage.png"
-import loginImage from "./images/loginImage.png"
-import dashboardImage from "./images/dashboardImage.png"
-import fingerprintImage from "./images/fingerprintCode.png"
+import dataScraperImage from "./images/dataScraperImage.png"
+
+import databseConnectionImage from "./images/databseConnectionImage.png"
+import FootballWizardHomePageImage from "./images/FootballWizardHomePageImage.png"
+import gptapiimage from "./images/gptapiimage.png"
 
 
 
@@ -96,8 +95,8 @@ const FootballWizard = () => {
 
             {/* FIRST ITERATION IMAGES */}
             <div className="lg:flex lg:gap-3 lg:mt-2">
-                <img src={pressureSensorImage} alt="pressureSensor" className="w-[37rem] rounded-[1.5rem] mb-3"></img>
-                <img src={proximitySensorImage} alt="proximitySensor" className="w-[37rem] rounded-[1.5rem] mb-3" ></img>
+                <img src={dataScraperImage} alt="data scaper" className="w-[37rem] rounded-[1.5rem] mb-3"></img>
+                <img src={gptapiimage} alt="proximitySensor" className="w-[37rem] rounded-[1.5rem] mb-3" ></img>
             </div>
 
             <h3 className="lg:text-lg font-interTight font-semibold lg:mt-9 mt-5 text-xl">Second Iteration and Refinements:</h3>
@@ -112,14 +111,9 @@ const FootballWizard = () => {
 
             {/* SECOND ITERATION IMAGES */}
             <div className="lg:flex gap-3 lg:mt-2">
-                <img src={image3dPrint} alt="printer" className="lg:w-[23rem] lg:h-[30rem] rounded-[1.5rem] mt-3 mb-3"></img>
-                <img src={fingerprintImage} alt="fingerprint" className="w-[22rem] lg:h-[30rem] rounded-[1.5rem] mb-3" ></img>
+                <img src={FootballWizardHomePageImage} alt="printer" className="lg:w-[35rem] lg:h-[20rem] rounded-[1.5rem] mt-3 mb-3"></img>
+                <img src={databseConnectionImage} alt="fingerprint" className="w-[35rem] lg:h-[20rem] rounded-[1.5rem] mb-3" ></img>
             </div>
-            <div className="lg:flex gap-3 lg:mt-2">
-                <img src={loginImage} alt="login" className="lg:w-[38rem] lg:h-[23rem] rounded-[1.5rem] mb-3"></img>
-                <img src={dashboardImage} alt="maindashboard" className="lg:w-[38rem] lg:h-[23rem] rounded-[1.5rem] mb-3" ></img>
-            </div>
-
 
             {/* Reflection */}
             <h3 className="lg:text-lg font-interTight font-semibold lg:mt-5 mt-5 text-xl">Reflection:</h3>
