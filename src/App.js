@@ -19,7 +19,6 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/About' element={<About />} />
         <Route path='/Projects' element={<Projects />} />
-        {/* // eslint-disable-next-line */}
         <Route path='/FootballWizard' element={<FootballWizard />} />
         <Route path='/StudySpotr' element={<StudySpotr />} />
         <Route path='/Pharmabotics' element={<Pharmabotics />} />
