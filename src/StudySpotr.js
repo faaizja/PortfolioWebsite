@@ -56,9 +56,7 @@ const studySpotr = () => {
                 <h3 className="lg:text-lg font-interTight font-semibold">Back-End: <span className="font-medium lg:text-sm"> Node.js | MongoDB | AWS</span> </h3>
                 <h3 className="lg:text-lg font-interTight font-semibold">Tools: <span className="font-medium lg:text-sm"> Mapbox API | GitHub | VSCode | Vercel</span> </h3>
                 <h3 className="lg:text-lg font-interTight font-semibold">My Role: <span className="font-medium lg:text-sm"> As a co-developer, I created front-end components, optimized back-end data flow, and integrated the Mapbox API for location-based services.</span> </h3>
-                <h3 className="lg:text-lg font-interTight font-semibold">Contributors:</h3>
-                <li className="lg:ml-8 font-interTight font-medium">Harjot Singh - Founder and lead developer.</li>
-                <li className="lg:ml-8 font-interTight font-medium">Faaiz Abdullah (me) - Co-developer.</li>
+
             </div>
 
             {/* PROCESS */}
