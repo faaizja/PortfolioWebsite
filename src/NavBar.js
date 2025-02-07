@@ -99,18 +99,17 @@ const Navbar = () => {
         style={{ transformOrigin: 'top right' }}
       >
         <ul className="flex flex-col items-start font-semibold font-interTight">
-          <li className="px-4 py-2 hover:text-gray-400 w-full">
+          <li className="px-4 py-2 hover:text-gray-400 w-full duration-300 ease-in-out">
             <button onClick={navigateHome}>Home</button>
             <hr className="h-px my-1 border-0 dark:bg-gray-700" />
           </li>
 
-          <li className="px-4 py-2 hover:text-gray-400 w-full">
+          <li className="px-4 py-2 hover:text-gray-400 w-full duration-300 ease-in-out">
           <button onClick={navigateAbout}>About</button>
-            {/* <Link to="/About" onClick={handleClose}>About</Link> */}
             <hr className="h-px my-1 border-0 dark:bg-gray-700" />
           </li>
 
-          <li className="px-4 py-2 hover:text-gray-400 w-full">
+          <li className="px-4 py-2 hover:text-gray-400 w-full duration-300 ease-in-out">
             <button onClick={() => handleNavigation("/", "Projects")}>Projects</button>
             <hr className="h-px my-1 border-0 dark:bg-gray-700" />
           </li>
@@ -120,13 +119,13 @@ const Navbar = () => {
             <hr className="h-px my-1 border-0 dark:bg-gray-700" />
           </li> */}
 
-          <li className="px-4 py-2 hover:text-gray-400 w-full">
+          <li className="px-4 py-2 hover:text-gray-400 w-full duration-300 ease-in-out">
             <button onClick={() => handleNavigation("/", "Connect")}>Connect</button>
             <hr className="h-px my-1 border-0 dark:bg-gray-700" />
           </li>
 
           <a href="/FaaizAbdullahResume.pdf" download="FaaizAbdullah_Resume.pdf" >
-              <li className= "px-4 py-2 hover:text-gray-400 w-full">
+              <li className= "px-4 py-2 hover:text-gray-400 w-full duration-300 ease-in-out">
                 Download Resume
                 <hr className="h-px my-1 border-0 dark:bg-gray-700 w-40"/>
               </li>
