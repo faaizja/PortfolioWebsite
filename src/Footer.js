@@ -64,7 +64,7 @@
 
         </div>
 
-        <h2 className="flex justify-center lg:mt-5 mt-6 text-white font-interTight font-medium text-[0.5rem] lg:text-sm">© Copyright Faaiz Abdullah 2024 | Made with React.js, Tailwind CSS, and hosted through GitHub and Vercel.</h2>
+        <h2 className="flex justify-center lg:mt-5 mt-6 text-white font-interTight font-medium text-[0.5rem] lg:text-sm">© Copyright Faaiz Abdullah 2025 | Made with React.js, Tailwind CSS, and hosted through GitHub and Vercel.</h2>
 
       </section>
     );
